@@ -4,7 +4,7 @@ $.fn.sticky = function( offset ) {
     , element = this
     , offset = offset || 0;
   $( window ).scroll( function( event ) {
-      if( window.scrollY > initial_position ) {
+      if( window.scrollY + offset > initial_position ) {
             element.css( "top", ( window.scrollY - initial_position + offset ) + "px" );
           } else {
                 element.css( "top", "initial" );
