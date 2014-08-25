@@ -31,7 +31,7 @@
             "node": ">= 0.6.x"
         },
     "dependencies": {
-            "jQuery": "*",
+            "jQuery": "*"
         },
     "devDependencies": {
         }
