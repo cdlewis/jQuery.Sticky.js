@@ -1,0 +1,38 @@
+{
+    "name": "jQuery.sticky.js",
+    "description": "A simple, lightweight plugin to make elements scroll with the window if the are about to disappear from view."
+    "version": "1.0.0",
+    "homepage": "https://github.com/cdlewis/jQuery.Sticky.js",
+    "keywords": [
+            "sticky",
+            "scroll",
+            "plugin"
+        ],
+    "repository": {
+            "type": "git",
+            "url": "https://github.com/cdlewis/jQuery.Sticky.js.git"
+        },
+    "bugs": {
+            "url": "https://github.com/cdlewis/jQuery.Sticky.js/issues"
+        },
+    "author": {
+            "name": "Chris Lewis",
+            "email": "chris.lewis2@gmail.com",
+            "url": "http://www.chrislewis.com.au/"
+        },
+    "licenses": [
+            {
+                "type": "MIT",
+                "url": "https://github.com/cdlewis/jQuery.Sticky.js/blob/master/README.md"
+            }
+        ],
+    "main": "jquery.sticky.js",
+    "engines": {
+            "node": ">= 0.6.x"
+        },
+    "dependencies": {
+            "jQuery": "*",
+        },
+    "devDependencies": {
+        }
+}
