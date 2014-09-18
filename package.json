@@ -1,7 +1,7 @@
 {
     "name": "jQuery.sticky.js",
     "description": "A simple, lightweight plugin to make elements scroll with the window if the are about to disappear from view.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/cdlewis/jQuery.Sticky.js",
     "keywords": [
             "sticky",
