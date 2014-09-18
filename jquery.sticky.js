@@ -4,11 +4,11 @@ $.fn.sticky = function( offset, limit ) {
     , offset = offset || 0;
   $( window ).scroll( function( event ) {
     var initial_position = element.offset().top - ( parseInt( element.css( "top" ), 10 ) || 0);
-    if( ( document.documentElement.scrollTop + offset ) > initial_position ) {
-      if( typeof( limit ) !== 'undefined' && ( ( document.documentElement.scrollTop + offset + element.height() ) > limit.offset().top ) ) {
+    if( ( window.pageYOffset + offset ) > initial_position ) {
+      if( typeof( limit ) !== 'undefined' && ( ( window.pageYOffset + offset + element.height() ) > limit.offset().top ) ) {
         return; // do nothing
       } else {
-        element.css( "top", ( document.documentElement.scrollTop - initial_position + offset ) + "px" );
+        element.css( "top", ( window.pageYOffset - initial_position + offset ) + "px" );
       }
     } else {
       element.css( "top", "initial" );
