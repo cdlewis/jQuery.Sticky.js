@@ -9,7 +9,7 @@
         if( typeof( limit ) !== 'undefined' && ( ( window.pageYOffset + offset + element.height() ) > limit.offset().top ) ) {
           return; // do nothing
         } else {
-          element.css( "top", ( window.pageYOffset - initial_position + offset ) + "px" );
+          element.css( "top", Math.floor( window.pageYOffset - initial_position + offset ) + "px" );
         }
       } else {
         element.css( "top", "initial" );
